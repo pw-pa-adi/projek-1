@@ -1,0 +1,93 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg-fav{
+    background-color: #333;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.bg-light{
+    background-color: #fff;
+}
+
+.bg-secondary{
+    background-color: grey;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav .container h1{
+    float: left;
+}
+
+nav .container ul{
+    float: right;
+}
+
+nav .container ul li{
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+}
+
+.hero{
+    height: 250px;
+    background-image: url('../image/spider.jpg');
+    background-size: cover;
+    background-position: 0 -25;
+}
+
+.artikel{
+    padding: 20px 0 20px 20px;
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.about{
+    padding: 20px 20px 20px 0;
+    width: 30%;
+    float: right;
+}
+
+.about img{
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+}
+
+footer{
+    height: 70px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}
